@@ -1,0 +1,42 @@
+body {
+    background-color: rgb(1, 1, 41);
+    color: white;
+    /* display: flex; */
+}
+
+#container{
+    height: 75vh;
+    width: 60vw;
+    /* border: 2px solid white; */
+    padding: 20px;
+}
+
+img{
+    height: 200px;
+    width: 200px;
+}
+
+#btn-container{
+    /* float: right; */
+    /* width: 60vw; */
+    padding: 10px;
+    text-align: right;
+}
+
+#btn-container a{
+    background-color: rgb(239, 33, 33);
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 7px;
+    
+    /* border: 2px solid white; */
+}
+
+#btn-container a:hover{
+    background-color: rgb(96, 35, 35);
+}

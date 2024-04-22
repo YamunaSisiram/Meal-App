@@ -1,0 +1,70 @@
+body {
+    background-color: rgb(1, 1, 41);
+    color: white;
+    
+}
+#mealList {
+    margin: 20px;
+    /* border: 2px solid white; */
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.meal {
+    height: 350px;
+    width: 300px;
+    border: 2px solid rgb(76, 209, 167);
+    margin: 20px;
+    padding: 10px;
+    border-radius: 17px;
+}
+img {
+    width: 250px;
+    height: 200px;
+    margin: 2px;
+}
+
+.remove-from-fav-btn {
+    background-color: rgb(239, 33, 33);
+    color: white;
+    margin: 7px 2px;
+    width: 200px;
+    height: 35px;
+    border-radius: 7px;
+}
+
+h3:hover {
+    text-decoration: underline;
+}
+
+button:hover {
+    background-color: rgb(96, 35, 35);
+}
+
+#btn-container{
+    /* float: right; */
+    /* width: 60vw; */
+    padding: 10px;
+    text-align: right;
+}
+
+#btn-container a{
+    background-color: rgb(239, 33, 33);
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 7px;
+    
+    /* border: 2px solid white; */
+}
+
+#btn-container a:hover{
+    background-color: rgb(96, 35, 35);
+}
